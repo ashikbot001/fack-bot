@@ -18,7 +18,7 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
   const body = content.toLowerCase();
 	if (body.indexOf("tafriya")==0 || body.indexOf("Tafriya")==0 || body.indexOf("Efa")==0 || body.indexOf("efa")==0) {
 		var msg = {
-				body: "𝐌𝐃 𝐉𝐔𝐁𝐀𝐄𝐃 𝐀𝐇𝐌𝐄𝐃 𝐉𝐎𝐘",
+				body: "═────🥰🥰────═\n- 🥀❝অনেক!!ইচ্ছে!!করে,♡︎🙂\nღ-❝তোমায়!! খুব!! শক্ত!! ❝করে!! জড়িয়ে!!\nধরে!! বলিᢀ!!࿐😘💋😍🥀\nღ-❝ভালোবাসি!! তোমায়!! ❝নিজের!!\nচেয়েও!! বেশিᢀ!!࿐😻🌺\n\n𝐌𝐃 𝐉𝐔𝐁𝐀𝐄𝐃 𝐀𝐇𝐌𝐄𝐃 𝐉𝐎𝐘",
 				attachment: fs.createReadStream(__dirname + `/Joy/tafriyaefa.mp4`)
 			}
 			api.sendMessage( msg, threadID, messageID);
